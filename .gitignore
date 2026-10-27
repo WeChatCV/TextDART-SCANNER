@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Environments and editor files
+.env
+.venv/
+venv/
+.vscode/
+.idea/
+
+# Training and experiment outputs
+saves/
+checkpoints/
+dataset_cache/
+wandb/
+*.log
+train_node_*.log
+
+# Evaluation outputs and optional third-party checkouts
+eval/X-Omni/
+eval/OneIG-Benchmark/
+eval/TextCrafter/
+eval/**/eval_results/
+eval/**/eval_metrics/
+eval/scripts/logs/
+eval/metric_summary.md
+
+# Download state may contain authentication metadata
+**/.hfd/

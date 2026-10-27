@@ -1,0 +1,14 @@
+# Python 3.12, PyTorch CUDA 12.8.
+accelerate==1.13.0
+datasets==4.8.5
+deepspeed==0.19.0
+diffusers==0.38.0
+numpy==2.3.5
+openai==2.38.0
+paddleocr==3.5.0
+peft==0.19.1
+torch==2.8.0
+torchaudio==2.8.0
+torchvision==0.23.0
+transformers==5.9.0
+paddlepaddle-gpu==3.3.0

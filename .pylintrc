@@ -1,0 +1,3 @@
+[BASIC]
+# Public package and serialized sample names are part of the supported API.
+good-names=i,j,k,ex,Run,_,TextDART,GenTextEval,SD3_5Sample

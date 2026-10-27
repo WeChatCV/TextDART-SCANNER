@@ -1,0 +1,19 @@
+compute_environment: LOCAL_MACHINE
+distributed_type: DEEPSPEED
+downcast_bf16: 'yes'
+# DeepSpeed ZeRO-2 across 4 nodes x 8 GPUs (32 ranks total).
+# `num_machines` / `main_process_ip` / `machine_rank` are overridden at launch
+# time by the env-var auto-detection in `flow_factory.cli` — see
+# `multinode_examples/README.md`.
+deepspeed_config:
+  deepspeed_multinode_launcher: standard
+  offload_optimizer_device: none
+  offload_param_device: none
+  zero3_init_flag: false
+  zero_stage: 2
+machine_rank: 0
+num_machines: 4
+num_processes: 32
+mixed_precision: bf16
+rdzv_backend: static
+same_network: true
