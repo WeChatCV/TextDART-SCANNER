@@ -7,7 +7,6 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2610.20794"><img src="https://img.shields.io/badge/arXiv-2610.20794-b31b1b?logo=arxiv&logoColor=white" alt="arXiv"></a>
   <a href="https://sujiehu.github.io/textdart-scanner/"><img src="https://img.shields.io/badge/Project-Page-425aa0?logo=googlechrome&logoColor=white" alt="Project Page"></a>
-  <a href="https://github.com/WeChatCV/TextDART-SCANNER"><img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white" alt="GitHub repository"></a>
   <a href="https://huggingface.co/SujieHu/TextDART-8B-Qwen3VL"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-TextDART--8B-ffc107" alt="TextDART model"></a>
   <a href="https://huggingface.co/datasets/SujieHu/TextDART-123K"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-TextDART--123K-ffc107" alt="TextDART-123K"></a>
   <a href="https://huggingface.co/datasets/SujieHu/PolyText-Bench"><img src="https://img.shields.io/badge/%F0%9F%93%8A%20Bench-PolyText--Bench-425aa0" alt="PolyText-Bench"></a>
